@@ -1,0 +1,12 @@
+# ninja log v5
+1	865	1714750777600854443	/home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/external/bingham/util.o	effb5d0ca84aaf34
+1	851	1714750876330611821	/home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/external/bingham/util.o	effb5d0ca84aaf34
+1	3050	1714750878526650859	/home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/external/bingham/bingham_constants.o	a2d630ceb88b8fa5
+1	893	1714751312574336078	/home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/external/bingham/util.o	2f38a9dfae918fdf
+1	3104	1714751314782375056	/home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/external/bingham/bingham_constants.o	1b261beb426c503c
+1	172	1714751405839981726	/home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/external/bingham/hypersphere.o	247fed1d2af10adb
+1	234	1714751405899982784	/home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/external/bingham/tetramesh.o	2e13315db7ad1c2e
+1	365	1714751406031985112	/home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/external/bingham/octetramesh.o	5712baf657d94fe8
+1	583	1714751406247988922	/home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/external/bingham/bingham.o	d8a81cd1f54883ee
+1	3045	1714751408708032310	/home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/external/bingham/bingham_constants.o	1b261beb426c503c
+1	13861	1714751555962627939	/home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/ops.o	a985991042239cbd

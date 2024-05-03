@@ -1,0 +1,31 @@
+ninja_required_version = 1.3
+cxx = c++
+
+cflags = -pthread -B /home/runyi/miniconda3/envs/CP6D/compiler_compat -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/runyi/miniconda3/envs/CP6D/include -fPIC -O2 -isystem /home/runyi/miniconda3/envs/CP6D/include -fPIC -I./external/bingham -I. -I/home/runyi/miniconda3/envs/CP6D/lib/python3.10/site-packages/torch/include -I/home/runyi/miniconda3/envs/CP6D/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/runyi/miniconda3/envs/CP6D/lib/python3.10/site-packages/torch/include/TH -I/home/runyi/miniconda3/envs/CP6D/lib/python3.10/site-packages/torch/include/THC -I/home/runyi/miniconda3/envs/CP6D/include/python3.10 -c
+post_cflags = -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=torch_bingham -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++17
+cuda_dlink_post_cflags = 
+ldflags = 
+
+rule compile
+  command = $cxx -MMD -MF $out.d $cflags -c $in -o $out $post_cflags
+  depfile = $out.d
+  deps = gcc
+
+
+
+
+
+build /home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/external/bingham/bingham.o: compile /home/runyi/Project/torch_bingham/torch_bingham/external/bingham/bingham.cpp
+build /home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/external/bingham/bingham_constants.o: compile /home/runyi/Project/torch_bingham/torch_bingham/external/bingham/bingham_constants.cpp
+build /home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/external/bingham/hypersphere.o: compile /home/runyi/Project/torch_bingham/torch_bingham/external/bingham/hypersphere.cpp
+build /home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/external/bingham/octetramesh.o: compile /home/runyi/Project/torch_bingham/torch_bingham/external/bingham/octetramesh.cpp
+build /home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/external/bingham/tetramesh.o: compile /home/runyi/Project/torch_bingham/torch_bingham/external/bingham/tetramesh.cpp
+build /home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/external/bingham/util.o: compile /home/runyi/Project/torch_bingham/torch_bingham/external/bingham/util.cpp
+build /home/runyi/Project/torch_bingham/torch_bingham/build/temp.linux-x86_64-cpython-310/ops.o: compile /home/runyi/Project/torch_bingham/torch_bingham/ops.cpp
+
+
+
+
+
+
+
