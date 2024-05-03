@@ -1,11 +1,11 @@
-torch_bingham.egg-info/
-dist/*
-build/temp.*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
+torch_bingham.egg-info/
+dist/*
+build/temp.*
 # C extensions
 *.so
 
