@@ -9,7 +9,7 @@ extern "C" {
 
 
 
-#include "bingham/hypersphere.h"
+#include "include/hypersphere.h"
 
 
 typedef struct {

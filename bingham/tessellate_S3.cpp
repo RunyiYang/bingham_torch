@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "bingham/hypersphere.h"
-#include "bingham/util.h"
+#include "include/hypersphere.h"
+#include "include/util.h"
 
 
 int main(int argc, char *argv[])

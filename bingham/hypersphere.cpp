@@ -4,8 +4,8 @@
 #include <string.h>
 #include <math.h>
 #include <float.h>
-#include "bingham/util.h"
-#include "bingham/hypersphere.h"
+#include "include/util.h"
+#include "include/hypersphere.h"
 
 
 

@@ -4,7 +4,7 @@
 #include <string.h>
 #include <math.h>
 #include "bingham.h"
-#include "bingham/bingham_constants.h"
+#include "include/bingham_constants.h"
 
 
 

@@ -10,9 +10,9 @@
 #include <iostream>
 #include <memory>
 
-#include "external/bingham/bingham.h"
-#include "external/bingham/bingham/bingham_constants.h"
-#include "external/bingham/bingham/bingham_constant_tables.h"
+#include "bingham/bingham.h"
+#include "bingham/include/bingham_constants.h"
+#include "bingham/include/bingham_constant_tables.h"
 
 torch::Tensor F_lookup_3d(torch::Tensor z)
 {

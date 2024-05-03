@@ -4,8 +4,8 @@
 #include <string.h>
 #include <float.h>
 #include <math.h>
-#include "bingham/util.h"
-#include "bingham/tetramesh.h"
+#include "include/util.h"
+#include "include/tetramesh.h"
 
 
 /** Tools for subdividing and smoothing a tetrahedral mesh **/

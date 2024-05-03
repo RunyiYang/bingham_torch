@@ -1,0 +1,24 @@
+name: torch_bingham
+channels:
+  - nvidia/label/cuda-11.7.1
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - cuda-nvcc=11.7.99=0
+  - cuda-toolkit=11.7.1=0
+  - libev=4.33=hd590300_2
+  - libevent=2.1.12=hf998b51_1
+  - libexpat=2.6.2=h59595ed_0
+  - libffi=3.4.4=h6a678d5_1
+  - libflac=1.4.3=h59595ed_0
+  - libgcc=7.2.0=h69d50b8_2
+  - libgcc-ng=13.2.0=h807b86a_5
+  - pip:
+      - cmake==3.28.3
+      - tinycudann==1.7
+      - torch==2.0.0
+      - torchaudio==2.0.1
+      - torchvision==0.15.1
+prefix: /home/runyi/miniconda3/envs/torch_bingham

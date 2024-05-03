@@ -5,7 +5,7 @@
 #include <time.h>
 #include <math.h>
 #include <float.h>
-#include "bingham/util.h"
+#include "include/util.h"
 //#include <lapacke.h>
 //#undef I  // fuck C99!
 

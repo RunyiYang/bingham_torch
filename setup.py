@@ -12,14 +12,14 @@ from torch.utils.cpp_extension import CppExtension, BuildExtension
 extra_objects = []
 module = CppExtension(
     'torch_bingham', [
-    'external/bingham/bingham.cpp',
-    'external/bingham/bingham_constants.cpp',
-    'external/bingham/tetramesh.cpp',
-    'external/bingham/octetramesh.cpp',
-    'external/bingham/hypersphere.cpp',
-    'external/bingham/util.cpp',
+    'bingham/bingham.cpp',
+    'bingham/bingham_constants.cpp',
+    'bingham/tetramesh.cpp',
+    'bingham/octetramesh.cpp',
+    'bingham/hypersphere.cpp',
+    'bingham/util.cpp',
     'ops.cpp'],
-    include_dirs=['./external/bingham', '.'],
+    include_dirs=['./bingham/include', '.'],
     libraries=['m'],
     extra_objects = extra_objects,
 )

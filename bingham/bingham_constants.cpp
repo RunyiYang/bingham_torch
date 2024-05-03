@@ -4,9 +4,9 @@
 #include <string.h>
 #include <math.h>
 #include <float.h>
-#include "bingham/util.h"
-#include "bingham/bingham_constants.h"
-#include "bingham/bingham_constant_tables.h"
+#include "include/util.h"
+#include "include/bingham_constants.h"
+#include "include/bingham_constant_tables.h"
 
 const double BINGHAM_MIN_CONCENTRATION = -900;
 

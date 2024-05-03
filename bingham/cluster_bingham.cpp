@@ -4,9 +4,9 @@
 #include <string.h>
 #include <math.h>
 #include "bingham.h"
-#include "bingham/util.h"
-#include "bingham/bingham_constants.h"
-#include "bingham/hypersphere.h"
+#include "include/util.h"
+#include "include/bingham_constants.h"
+#include "include/hypersphere.h"
 
 
 /*

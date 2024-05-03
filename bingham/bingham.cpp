@@ -5,9 +5,9 @@
 #include <math.h>
 #include <float.h>
 #include "bingham.h"
-#include "bingham/util.h"
-#include "bingham/hypersphere.h"
-#include "bingham/bingham_constants.h"
+#include "include/util.h"
+#include "include/hypersphere.h"
+#include "include/bingham_constants.h"
 //#include "bingham/bingham_constant_tables.h"
 
 

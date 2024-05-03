@@ -4,8 +4,8 @@
 #include <string.h>
 #include <float.h>
 #include <math.h>
-#include "bingham/util.h"
-#include "bingham/octetramesh.h"
+#include "include/util.h"
+#include "include/octetramesh.h"
 
 
 /*

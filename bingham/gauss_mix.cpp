@@ -7,8 +7,8 @@
 #include <math.h>
 #include <float.h>
 #include "bingham.h"
-#include "bingham/util.h"
-#include "bingham/gauss_mix.h"
+#include "include/util.h"
+#include "include/gauss_mix.h"
 
 
 
@@ -268,7 +268,7 @@ gauss_mix_t *fit_gauss_mix(double **X, int npoints, int dims, double *w, unsigne
 //---------------------------  TESTING  -----------------------//
 
 
-#include "bingham/olf.h"
+#include "include/olf.h"
 
 
 int main(int argc, char *argv[])
