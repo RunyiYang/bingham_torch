@@ -6,8 +6,8 @@ To start, at least ensure these packages are installed.
 torch==2.0.0
 setuptools
 ```
-####  Cuda version
-This code is tested on cuda-11.7 and cuda-11.8, if you are using conda environments, this should work. And remember to link your cuda in the environment.
+####  Dependency
+This code is tested on cuda-11.7 / cuda-11.8, with gcc-9 and g++-9 / gcc-11 and g++-11, if you are using conda environments, this should work. And remember to link your cuda in the environment.
 ```
 conda install cudatoolkit=11.7
 ```
